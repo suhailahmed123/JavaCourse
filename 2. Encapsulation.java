@@ -1,6 +1,6 @@
 /***************ENCAPSULATION**********************/
 /*
-- Encapsulation is a process of preventiong direct access to the most important components of an object.
+- Encapsulation is a process of preventing direct access to the most important components of an object.
 - not preventing access it's providing controlled access.
 IMP-
 - [ In the above statement the most important component refers to data members/variables ]

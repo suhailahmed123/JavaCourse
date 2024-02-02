@@ -45,3 +45,17 @@ Let's learn the difference between this keyword and this() method
 2. used to achieve local chaining.
 3. it must be in the first line of constructor.
 4. it cannot be inside methods, only inside constructors.
+
+*********************************************************************************************************************************************************************************************************************
+
+There are ttwo types of chaining in java
+1. Local Chaining
+2. Constructor Chaining
+
+Local Chaining - One constructor calling another constructor inside a same class is called loacal chaining or constructor chaining.
+we use this() method to achieve local chaining
+
+- IMP
+this() is a function call which is used to take control from one contructor to another contructor within the same class. 
+
+Constructor Chaining - 

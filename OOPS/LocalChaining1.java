@@ -52,6 +52,8 @@ public class LocalChaining1 {
 
 - The control starts from main() and enters into the main() and the first line of main() method is object creation using "new" keyword [new Dog()].
 
+- so now the Dog() is a class or call to that class and when the control goes to that class it encounters instance variables name and breed of type String.
+
 - And in the heap segment it assigns default values to it[ for int=0, float=0.0, string=null].
 
 - After assigining the values there is a call to a parameterized constructor then the control goes to parameterized constructor.

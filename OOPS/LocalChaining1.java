@@ -62,7 +62,7 @@ public class LocalChaining1 {
   the default values with name, breed [snoopy and beagle].
 
 - Next the control comes back to the same point [parameterized constructor] and there are no lines to executes and it gets back to main() method
-- right side [Dog d] there is a reference 'd' and in stack memory the address of heap memory segment is stored and it starts points to heap.
+- left side [Dog d] there is a reference 'd' and in stack memory the address of heap memory segment is stored and it starts points to heap.
 
 - and next there is display or print() then by using c.getName() and c.getBreed() it displays the output and the execution completes.
 

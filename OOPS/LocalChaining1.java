@@ -1,6 +1,10 @@
-                                                            /******CONSTRUCTOR CHAINING***********/
+                                                            /******CHAINING***********/
 
 /*
+
+There are ttwo types of chaining in java
+1. Local Chaining
+2. Constructor Chaining
 
 Local Chaining - One constructor calling another constructor inside a same class is called loacal chaining or constructor chaining.
 we use this() method to achieve local chaining
@@ -46,17 +50,19 @@ public class LocalChaining1 {
 
 /*  CODE EXPLAININATION
 
-- The control starts from main() and enters into the main() and the first line of main() method is object creation using "new" keyword.
+- The control starts from main() and enters into the main() and the first line of main() method is object creation using "new" keyword [new Dog()].
 
 - And in the heap segment it assigns default values to it[ for int=0, float=0.0, string=null].
 
-- After assigining the values there is a call to a parameterized constructor then the contril goes to parameterized constructor.
+- After assigining the values there is a call to a parameterized constructor then the control goes to parameterized constructor.
 
-- Here it encounters a this() method which is call to another constructor of same class so the control go to zero-parameterized constructor and there it assigns
-  the values name, breed [in the memory the default values get replaced by snoopy and beagle].
+- Here it encounters a this() method which is call to another constructor of same class so the control go to zero-parameterized constructor and there it replaces
+  the default values with name, breed [snoopy and beagle].
 
 - Next the control comes back to the same point [parameterized constructor] and there are no lines to executes and it gets back to main() method
-  and next there is display or print() then by using getName() and getBrerd() it displays the output and the execution completes.
+- right side [Dog d] there is a reference 'd' and in stack memory the address of heap memory segment is stored and it starts points to heap.
+
+- and next there is display or print() then by using c.getName() and c.getBreed() it displays the output and the execution completes.
 
 
 

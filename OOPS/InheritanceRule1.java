@@ -30,3 +30,15 @@ public class InheritanceRule1 {
 	}
 
 }
+
+
+/*
+Java supports inheritance but not at the cost of affecting encapsulation.
+default, protected and public keyword are used in inheritance but not private.
+*/
+
+
+/*
+😊😊😊😊 HAPPY LEARNING 😊😊😊😊
+*/
+

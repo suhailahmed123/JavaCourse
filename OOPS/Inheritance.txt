@@ -1,7 +1,36 @@
 INHERITANCE IN JAVA
 
+- Let's learn inheritance using an real world example
+
+There is farmer who ows 1 acre of land and he works day and night in that 1 acre and increases that land to 10 acres and then he handovers it to his son/daughter.
+
+Next, the farmer's son/daughter won't start from scratch, he/she builds a house and expands it to more than 10 acres.
+
+Next,  the farmer's grandson/granddaughter won't start from scratch, he/she take that all the "properties" of there parents & grandparents and expand it to large scale business.
+
+So, Inheritance means child taking/inheriting the properties and behaviour of parents.
+
+In technical terms we can define it as, Inheritance is a process of one class acquiring the properties and behavious of another class. OR 
+Inheritance is a process of child class acquiring the properties and behavious of Parent class.
+
+- Here "Properties" mewans i hope you have understood by the above example and "behavious" means like nose, eyes, and etc....
+
+- Child Class:-
+The class that extends the feature of another class is known as child class, sub class or derived class.
+
+- Parent Class:- The class whose properties and functionalities are used (inherited) by another class is known as parent class, super class or Base class.
+
+The properties and behavious are inherited by using "extends" keyword.
 
 
+- Advantages:-
+1. Code Reusability
+2. Reduce development time and effort
+3. Increse profitability
 
 
-
+- Rules of Inheritance:-
+1. In java private members of a class do not participate in inheritance
+2. Java supports multi-level inheritance
+3. Multiple inheritance is not allowed in java
+4. cyclic inheritance is not allowed/supported in java

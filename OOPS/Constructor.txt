@@ -58,4 +58,31 @@ we use this() method to achieve local chaining
 - IMP
 this() is a function call which is used to take control from one contructor to another contructor within the same class. 
 
-Constructor Chaining - 
+
+Constructor Chaining - It the process of taking the control from child class constructor to parent class constructor.
+we use super() method to achieve constructor chaining
+
+- The parent class which is the main parent[top most] of any class is Object.
+
+class Object
+{
+	Object()	
+	{
+		// nothing inside this constructor
+	}
+}
+
+Ex:- 
+
+class Car extends Object{
+
+
+}
+
+class Ferrari extends Car{
+
+
+}
+
+
+😊😊 HAPPY LEARNING 😊😊

@@ -1,11 +1,12 @@
 /*
 
-- Constructor Chaining - 
+Constructor Chaining - It the process of taking the control from child class constructor to parent class constructor.
 
 */
 class One {
 	
 	public One() {
+		//super(); 	//super() is present automatically no need to tell explicitly and it class Object class constructor
 		System.out.println("inside One class");
 	}
 }
@@ -33,3 +34,7 @@ public class ConstructorChaining1 {
 	}
 
 }
+
+/*
+😊😊 HAPPY LEARNING 😊😊
+*/

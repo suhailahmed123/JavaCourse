@@ -36,5 +36,14 @@ public class ConstructorChaining1 {
 }
 
 /*
+
+OUTPUT
+inside One class
+inside Two class
+
+*/
+
+
+/*
 😊😊 HAPPY LEARNING 😊😊
 */

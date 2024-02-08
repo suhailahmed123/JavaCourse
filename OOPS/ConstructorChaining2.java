@@ -46,3 +46,23 @@ public class ConstructorChaining2 {
 	}
 
 }
+
+
+
+/*					CODE EXPLAINATION 
+
+
+- First the control enters into main() method , first line of main method is assignment, whenever there is a assignment operator the control goes to right side(RHS) and it a call 
+
+
+
+OUTPUT
+inside One class
+inside Two class
+
+*/
+
+
+/*
+😊😊 HAPPY LEARNING 😊😊
+*/

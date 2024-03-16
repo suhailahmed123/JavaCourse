@@ -10,6 +10,7 @@
 6. Inheritance
 7. Rules Of Inheritance
 8. Constuctor Chaining
+9. Types Of Methods
 
 
 

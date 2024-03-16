@@ -1,0 +1,23 @@
+Types Of Methods:-
+
+1. Inherited methods 
+2. Overridden methods 
+3. Specialised methods
+
+Inherited Methods are such methods which are inherited from parent class and used without any modification in child class.
+
+Overridden methods are such methods which are inherited from parent class and are modified and used in child class.
+
+Specialised methods are such methods which are only present in child class but not in parent class.
+
+
+Now let us consider a scenario to understand types of methods:
+
+A parent has height, Skin-color, Hair-colour and nose
+
+Now the child has same height and colour are inherited from the parent and used without modification, hence they are inherited methods.
+
+Hair-colour is inherited and modified by the child and the changes the colour of hair to green, hence it is now an overridden method. 
+Similarly, nose is modified and used by the child and hence it is also an overridden method.
+
+Swim and Guitar are not present in parent class but in child class, hence they are specialised methods.
